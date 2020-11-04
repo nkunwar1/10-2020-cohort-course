@@ -1,0 +1,8 @@
+Every box has three properties that can be adjusted to controls it appearamnce:
+
+1. Broder
+    - Border Ticfecta: Width style Color
+    Width: take in a numeric pixel value
+    Style :  solid, dotted, dash
+    Color: rgb, hex, common
+    Expands IT.
