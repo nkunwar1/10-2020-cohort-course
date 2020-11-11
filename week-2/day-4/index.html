@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week2 -JS Carousel</title>
     <style>
-
+@keyframes identifier {
+    from {transform: translateX(0);}
+    to {transform: translateX(200);}
+    
+}
         #imageSlider{
             display:flex
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            
         }
         #window{
             overflow: hidden;
